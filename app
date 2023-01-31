@@ -7,7 +7,7 @@ auth_token = os.getenv('87245f339d8c88aa307f5cbf06025eba')
 client = Client(account_sid, auth_token)
 
 # Inicialización de OpenAI
-openai.api_key = os.getenv("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")
+openai.api_key = os.getenv("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")
 
 # Función para enviar un mensaje a través de WhatsApp con Twilio
 def send_message(to, message):
